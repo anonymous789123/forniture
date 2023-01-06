@@ -1,0 +1,36 @@
+section.cards{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+     gap: 12px;
+    padding: 0 50px;  
+    .first_card{
+        border: 1px solid rgba(223, 222, 219, 1);
+    }
+    .cards_header{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: $special;
+        width: 454px;
+        margin-bottom: 24px;
+    }
+    .cards_tittle{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color:  $special;
+    margin-bottom: 24px;
+    
+    }
+    .card_article{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: Stormy;
+    text-decoration: black;
+    color: $special;
+    }
+    
+
+}

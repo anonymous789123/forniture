@@ -1,0 +1,42 @@
+section.light_chair{
+   display: flex;
+   justify-content: center; 
+   height: 100vh; 
+    .texts{
+        justify-content: center;
+    display: flex;
+    flex-direction:column;
+     background-color: $cmain;
+     color: $cwhite;
+     width: 50%;
+     height: 100%;
+     gap: 30px;
+     padding: 211px 157px;
+     .title{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+     }
+     .about{
+    font-weight: 400px;
+    font-size: 15px;
+     line-height: 19px;
+     }
+     .button{
+    color: $cwhite;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+     }
+    }
+
+        .chair{
+            width: 50%;
+            height: 100%;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+}

@@ -1,0 +1,153 @@
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #384353;
+}
+
+.section_title {
+  font-size: 36px;
+  padding: 24px 0;
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 400;
+  border: 1px solid #dfdfdf;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+section.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 740px;
+}
+section.hero figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+section.hero figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section.hero .hero_content .page_title {
+  font-size: 96px;
+  color: #ffffff;
+  text-align: center;
+}
+section.hero .hero_content .page_title span {
+  font-size: italic;
+}
+section.hero .hero_content .hero_button {
+  display: flex;
+  justify-content: center;
+}
+section.hero .hero_content .hero_button a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 36px;
+  border-radius: 8px;
+  background-color: #f8f4e7;
+  color: #384353;
+  text-decoration: none;
+}
+
+.our_products .product-list ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  flex: wrap;
+  padding: 0 15px;
+  gap: 30px;
+  justify-content: space-between;
+}
+.our_products .product-list li .product-detales {
+  display: flex;
+  justify-content: space-between;
+}
+.our_products .product-list li .product-title {
+  font-weight: 400;
+  font-size: 12px;
+}
+.our_products .product-list li figure img {
+  align-items: center;
+}
+.our_products .shopall {
+  margin-top: 30px;
+}
+.our_products .shopall a {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+section.light_chair {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+section.light_chair .texts {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #384353;
+  color: #ffffff;
+  width: 50%;
+  height: 100%;
+  gap: 30px;
+  padding: 211px 157px;
+}
+section.light_chair .texts .title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+section.light_chair .texts .about {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+}
+section.light_chair .texts .button {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+section.light_chair .chair {
+  width: 50%;
+  height: 100%;
+}
+section.light_chair .chair img {
+  height: 100%;
+  width: 100%;
+}
+
+section.feature_products .section_header {
+  background-color: #384353;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=main.map */

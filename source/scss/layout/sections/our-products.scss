@@ -1,0 +1,39 @@
+.our_products{
+    
+    .product-list{
+       ul{
+        display: flex;
+         margin: 0;
+         list-style: none;
+         flex: wrap;
+         padding: 0 15px;
+         gap: 30px;
+        justify-content: space-between;
+       } li{
+        .product-detales{
+            display: flex;
+            justify-content: space-between;
+        }
+        .product-title{
+          font-weight:  400px;
+          font-size: 12px;
+        }
+        figure{
+            img{
+                align-items: center;
+            }
+         }
+       }
+    }
+    .shopall{
+      margin-top: 30px;
+      a{
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+      }
+    }
+}

@@ -1,0 +1,45 @@
+section.detail_matter{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 740px;
+    width: 100%;
+    z-index: 3;
+    figure{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        img{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+        }
+        }
+        .matters{
+        .matters_tittle{
+            font-weight: 400;
+            font-size: 72px;
+            line-height: 72px;
+            font-family: 'Reckless Neue';
+            margin-bottom: 36px;
+            color: $special;
+            
+        }   
+        .matter_content{
+        font-size: 13px;
+        font-family: Neue Montreal;
+        line-height: 14px;
+        font-weight: 400;
+        margin-bottom: 36px;
+        }
+        .second_content{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 19px;
+            margin-bottom: 36px;
+            font-family: 'Neue Montreal';
+        }
+    }
+    }
